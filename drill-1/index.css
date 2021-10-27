@@ -1,0 +1,28 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(168, 168, 168);
+}
+
+header {
+    height: 180px;
+    width: 100%;
+    background-color: rgb(88, 88, 88);
+}
+
+#big-box{
+    display: flex;
+    flex-direction: column;
+    height: 80vw;
+    width: 80%;
+    margin-inline-start: 10vw;
+    background-color: white;
+}
+#little-box{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 80%;
+    margin-inline-start: 10vw;
+    background-color: black;
+}
