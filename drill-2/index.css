@@ -25,11 +25,15 @@ h2 {
    width: 95vw;
 }
 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 200px;
     width: 95vw;
     font-size: 40px;
     color:navy;
     font-family:Arial;
+    box-shadow: 10px 10px gray;
 }
 #small-rectangle{
     height: 120px;
@@ -62,8 +66,10 @@ h3{
 #big-rectangle{
     height: 150px;
     width: 700px;
+    margin-top: 22px;
     margin-bottom: 15px;
-    background-color: ivory;
-    box-shadow: 2px, 2px, black; 
-
+    margin-left: 70px;
+    margin-right: 15px;
+    background-color: rgb(246, 246, 199);
+    box-shadow: 9px 9px rgb(70, 69, 69);
 }
