@@ -33,7 +33,11 @@ h3{
     font-size: 40px;
     color:navy;
     font-family:Arial;
-    box-shadow: 10px 10px gray;
+    box-shadow: 5px 5px gray;
+    border-style: solid;
+    border-color: gray;
+    border-inline-width: 2px;
+   
 }
 #small-rectangle{
     height: 120px;
